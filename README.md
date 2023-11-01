@@ -13,6 +13,6 @@
 
 <p align="center">
   <strong>
-    Appist provides all-in-one service to build your app in record time.
+    Appist provides all-in-one platform to build your app in record time.
   </strong>
 </p>
