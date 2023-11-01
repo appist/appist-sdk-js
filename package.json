@@ -1,0 +1,6 @@
+{
+  "name": "appist-sdk-js-monorepo",
+	"sideEffects": false,
+	"type": "module",
+  "workspaces": ["packages/*"]
+}

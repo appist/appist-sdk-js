@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  code-check:
+    uses: ./.github/workflows/setup.yml
+    with:
+      COMMAND: check
+    secrets:
+      CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+  unit-test:
+    uses: ./.github/workflows/setup.yml
+    with:
+      COMMAND: test
+    secrets:
+      CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}

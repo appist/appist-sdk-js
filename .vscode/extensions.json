@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"arrterian.nix-env-selector",
+		"bbenoist.nix",
+		"biomejs.biome",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"jnoortheen.nix-ide",
+		"redhat.vscode-yaml"
+	]
+}

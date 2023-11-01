@@ -1,0 +1,14 @@
+{
+	"name": "@appist/cli",
+	"version": "0.0.1",
+	"description": "The all-in-one platform that builds your app in record time.",
+	"bin": {
+		"appist": "bin/appist"
+	},
+  "files": [
+    "postinstall.js"
+  ],
+	"scripts": {
+		"postinstall": "node postinstall.js"
+	}
+}
