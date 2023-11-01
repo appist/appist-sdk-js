@@ -1,3 +1,18 @@
-# appist-sdk-js
+<p align="center">
+  <a href="https://appist.io" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <img src="assets/logo.svg" height="64">
+    </picture>
+  </a>
+  <br />
+</p>
 
-The official JS repository for Appist.
+<h1 align="center">
+  Official Appist JavaScript SDKs
+</h1>
+
+<p align="center">
+  <strong>
+    Appist provides all-in-one service to build your app in record time.
+  </strong>
+</p>
