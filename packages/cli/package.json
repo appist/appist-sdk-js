@@ -6,9 +6,16 @@
 		"appist": "bin/appist"
 	},
   "files": [
-    "postinstall.js"
+    "install.js"
   ],
 	"scripts": {
-		"postinstall": "node postinstall.js"
-	}
+    "build": "",
+    "check": "",
+		"dev": "",
+    "postinstall": "node install.js",
+    "test": ""
+	},
+  "devDependencies": {
+    "@appist/tsconfig": "workspace:*"
+  }
 }

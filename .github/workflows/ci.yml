@@ -12,13 +12,13 @@ jobs:
   code-check:
     uses: ./.github/workflows/setup.yml
     with:
-      COMMAND: check
+      COMMAND: turbo check
     secrets:
       CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
   unit-test:
     uses: ./.github/workflows/setup.yml
     with:
-      COMMAND: test
+      COMMAND: turbo test
     secrets:
       CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}

@@ -1,0 +1,16 @@
+{
+	"name": "@appist/remix",
+	"version": "0.0.1",
+	"description": ".",
+  "sideEffects": false,
+	"type": "module",
+	"scripts": {
+    "build": "",
+    "check": "",
+		"dev": "",
+    "test": ""
+	},
+  "devDependencies": {
+    "@appist/tsconfig": "workspace:*"
+  }
+}

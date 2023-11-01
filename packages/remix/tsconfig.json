@@ -1,0 +1,5 @@
+{
+	"extends": "@appist/tsconfig/node20.json",
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules"]
+}
