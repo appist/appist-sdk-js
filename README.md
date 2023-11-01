@@ -4,7 +4,6 @@
       <img src="assets/logo.svg" height="64">
     </picture>
   </a>
-  <br />
 </p>
 
 <h1 align="center">
